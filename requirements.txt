@@ -1,0 +1,9 @@
+# Requirements for Trading notebooks
+pandas
+pandas_ta
+python-ta
+talib
+matplotlib
+numpy
+mplfinance
+TA-Lib

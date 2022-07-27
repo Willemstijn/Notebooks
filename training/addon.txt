@@ -1,0 +1,30 @@
+additional package to install for candlehoarder in raspi
+
+sudo apt-get install libatlas-base-dev
+
+Add to requitements.txt in github
+
+Also renamed secrets.py to private.py since it clashed with another module suddenly and caused this error
+
+ImportError: Unable to import required dependencies:
+numpy: cannot import name randbits
+
+Had to rename secrets to private in config.py sections too!!
+
+ANother additional package to install:
+
+sudo apt-get install libopenjp2-7-dev
+
+Also end of hoarding at beginning??
+
+bas@appelstroop:~/CandleHoarder $ ./hoard.py
+WARNING:root:End of hoarding, everything seemed succesfull...
+WARNING:root:Starting hoarding of candles...
+WARNING:root:Checking BTCUSDT on 1d.
+Database BTCUSDT created
+Table BTCUSDT 1d created.
+No data found! Downloading history for BTCUSDT on 1d
+Creating Mayer multiple plot for BTCUSDT on 1d...
+Creating Bull support band plot for BTCUSDT on 1d...
+Creating moving averages plot for BTCUSDT on 1d...
+Creating Supertrend plot for BTCUSDT on 1d...
